@@ -13,6 +13,13 @@ coverage
 out/
 build
 
+# cra
+out
+build
+
+# other
+dist
+
 # misc
 .DS_Store
 *.pem

@@ -1,0 +1,23 @@
+{
+  "name": "ui-tsup",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup index.tsx --format cjs --dts --external react",
+    "clean": "rm -rf dist",
+    "dev": "tsup index.tsx --format cjs --watch --dts --external react",
+    "lint": "TIMING=1 eslint \"src/**/*.ts*\""
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "workspace:*",
+    "react": "^18.2.0",
+    "tsconfig": "workspace:*",
+    "tsup": "6.2.3",
+    "typescript": "^4.5.2"
+  }
+}
