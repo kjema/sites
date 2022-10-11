@@ -83,15 +83,19 @@ importers:
       '@vitejs/plugin-react': ^2.1.0
       react: ^18.2.0
       react-dom: ^18.2.0
+      tsconfig: workspace:*
       typescript: ^4.6.4
+      ui: workspace:*
       vite: ^3.1.0
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+      ui: link:../../packages/ui
     devDependencies:
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
       '@vitejs/plugin-react': 2.1.0_vite@3.1.7
+      tsconfig: link:../../packages/tsconfig
       typescript: 4.8.4
       vite: 3.1.7
 

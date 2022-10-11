@@ -8,7 +8,7 @@
     "build": "tsup index.tsx --format cjs --dts --external react",
     "clean": "rm -rf dist",
     "dev": "tsup index.tsx --format cjs --watch --dts --external react",
-    "lint": "TIMING=1 eslint \"src/**/*.ts*\""
+    "lint": "eslint \"./**/*.ts*\""
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
