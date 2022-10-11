@@ -22,6 +22,7 @@ importers:
       '@types/react': ^18.0.21
       '@types/react-dom': ^18.0.6
       '@types/testing-library__jest-dom': 5.14.5
+      eslint-config-custom: workspace:*
       react: ^18.2.0
       react-dom: ^18.2.0
       react-scripts: 5.0.1
@@ -45,6 +46,7 @@ importers:
       web-vitals: 2.1.4
     devDependencies:
       '@types/testing-library__jest-dom': 5.14.5
+      eslint-config-custom: link:../../packages/eslint-config-custom
       tsconfig: link:../../packages/tsconfig
 
   apps/nextjs:
